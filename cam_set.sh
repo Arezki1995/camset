@@ -113,7 +113,7 @@ if [ $(echo "$DEVICES" | wc -l) == 0 ]; then
 	sleep 2
 	exit
 fi
-
+xdg-open https://www.onlinemictest.com/webcam-test/
 main_menu
 
 
